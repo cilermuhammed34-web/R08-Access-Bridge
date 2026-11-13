@@ -2315,7 +2315,7 @@ public class RingHealthBackend {
     private boolean isR08(BluetoothDevice device) {
         if (device == null || !hasConnectPermission()) return false;
         String name = device.getName();
-        return name != null && name.toUpperCase(Locale.US).startsWith("R08");
+        return name != null && name.toUpperCase(Locale.US).startsWith("IMIKI");
     }
 
     private String safeName(BluetoothDevice device) {
