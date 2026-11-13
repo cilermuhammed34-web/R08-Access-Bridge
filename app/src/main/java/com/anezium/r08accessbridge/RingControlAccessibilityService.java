@@ -1238,7 +1238,7 @@ public final class RingControlAccessibilityService extends AccessibilityService
             return false;
         }
         String name = device.getName();
-        return name != null && name.toUpperCase(Locale.US).contains("R08");
+        return name != null && name.toUpperCase(Locale.US).contains("IMIKI");
     }
 
     private boolean isNexusRingFocused() {
